@@ -1,7 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* ==== Global ====*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/* ==== Navigation Menu ==== */
+
+.nav{
+position: absolute;
+display: flex;
+top: 0;
+left: 0;
+width: 100%;
+padding: 0.5%;
+justify-content: space-between;
+color: #9fd45f;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu li{
+margin: 0 30px;
+}
 
 
-.screen-1{
-    height: 100vh;
+.chunky{
+  display: block;
+  height: 1.5vmax;
+  min-height: 1.5vmax;
+  width: auto;
+  border-radius: 75%;
+}
+
+/* ==== Principal Screen ==== */
+
+header{
+    display: flex;
     width: auto;
-background-color:silver ;
+    height: 100vh;
+    background-image: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)), url(/Images/code_background.webp);
+    background-position: bottom;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 30vh;
+    border-radius: 50%;
+}
+
+.header-content{
+    
+    text-align: center;
+}
+
+.header-content h1{
+    margin-bottom: 2vh;
+    font-size: 7vmin;
+    color: white;
+}
+
+.line{
+    margin: auto;
+    margin-bottom: 2vh;
+    width: 40vw;
+    height: 0.5vh;
+    border-radius: 5px;
+    background-color: #9fd45f;
+}
+
+.header-content h2{
+    font-size: 5vmin ;
+    color: #c48b61;
 }
