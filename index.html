@@ -22,17 +22,68 @@
       <li><a href="#"></a>Working Tools</li>
       <li class="buton"><a href="#"></a>Contact</li>
     </ul>
+    <img src="/Images/menu_icon.png" class="buton-menu" />
   </nav>
 
   <header>
     <div class="header-content">
       <img src="/Images/Foto_sin_fondo.png" alt="Mario's Photo" class="photo">
+      <h2 class="hi">Hi, I am</h2>
       <h1>Mario Alberto López García</h1>
       <div class="line"></div>
-      <h2>Software Developer</h2>
+      <h2 class="profession">Software Developer</h2>
     </div>
 
   </header>
+
+  <!-- ==== Skills ==== -->
+  <section>
+    <div class="title">
+      <h1>Skills</h1>
+    </div>
+
+    <div class="rows">
+      
+      <div class="skill">
+        <img src="/Images/html.png" alt="HTML logo" class="logo">
+        <h4>HTML</h4>
+      </div>
+
+      <div class="skill">
+        <img src="/Images/css.png" alt="HTML logo" class="logo">
+        <h4>CSS</h4>
+      </div>
+
+      <div class="skill">
+        <img src="/Images/javascript.png" alt="HTML logo" class="logo">
+        <h4>JavaScript</h4>
+      </div>
+
+      <div class="skill">
+        <img src="/Images/c++ sin fondo.png" alt="HTML logo" class="logo">
+        <h4>C++</h4>
+      </div>
+
+      <div class="skill">
+        <img src="/Images/java.png" alt="HTML logo" class="logo">
+        <h4>Java</h4>
+      </div>
+
+      <div class="skill">
+        <img src="/Images/GitHub.png" alt="HTML logo" class="logo">
+        <h4>GitHub</h4>
+      </div>
+
+    </div>
+  </section>
+
+  <script>
+    const butonMenu = document.querySelector('.buton-menu')
+    const navMenu = document.querySelector('.nav-menu')
+    butonMenu.addEventListener('click', () => {
+      navMenu.classList.toggle('mobile-menu')
+    })
+  </script>
 
 </body>
 
