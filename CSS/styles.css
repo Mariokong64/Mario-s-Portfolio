@@ -11,7 +11,7 @@ body {
 }
 
 section{
-  height: 100vh;
+    height: 100vh;
 }
 
 a {
@@ -23,13 +23,12 @@ ul {
 }
 
 /* ==== Navigation Menu ==== */
-
 .nav {
   position: absolute;
   display: flex;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   justify-content: space-between;
   color: #9fd45f;
 }
@@ -55,7 +54,7 @@ ul {
 
 /* ==== Principal Screen ==== */
 
-header {
+header{
   display: flex;
   width: auto;
   height: 100vh;
@@ -69,6 +68,7 @@ header {
 
 .photo {
   display: block;
+  margin-top: 10%;
   margin-left: auto;
   margin-right: auto;
   width: auto;
@@ -104,8 +104,18 @@ header {
 
 .profession {
   margin-top: 0;
+  margin-bottom: 10%;
   font-size: 5vmin;
   color: #c48b61;
+}
+
+.download{
+  display: inline-block;
+  color:white;
+  font-weight: bold;
+  padding: 8px 15px;
+  background:#178c27;
+  border-radius: 25px;
 }
 
 .buton-menu {
@@ -119,37 +129,47 @@ header {
 }
 
 /* ===== About me ===== */
+
 .about-columns{
-  width: 90%;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  height: 72%;
   display: grid;
   grid-template-columns: 50% 50%;
-  gap: 5%;
+  gap: 3%;
 }
 
 .about-content{
-
-  background-color: #e3bd69;
-}
-
-.tokio-photo{
-
-  overflow: hidden;
+  text-align: justify;
 }
 
 p{
+  padding-top: 5%;
+  padding-bottom: 5%;
+font-size: 4vmin;
   color: #d4d3d1;
 }
 
-.tokio{
-
+.tokio-photo{
+  overflow: hidden;
+  border-radius: 5%;
 }
+
+.tokio{
+  display: block;
+  height: 100%;
+  width: auto;
+  opacity: 0.8;
+}
+
+
 
 
 /* ===== Skills ===== */
 
 h1{
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     text-align: center;
     font-size: 6vmin;
     color: #e3bd69;
