@@ -7,6 +7,11 @@ body {
   background-color: #101010;
   background-position: bottom;
   background-size: cover;
+  /* overflow-x: hidden; */
+}
+
+section{
+  height: 100vh;
 }
 
 a {
@@ -113,11 +118,35 @@ header {
   cursor: pointer;
 }
 
-/* ==== Skills ==== */
-section{
-    height: 100vh;
+/* ===== About me ===== */
+.about-columns{
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 5%;
+}
+
+.about-content{
+
+  background-color: #e3bd69;
+}
+
+.tokio-photo{
+
+  overflow: hidden;
+}
+
+p{
+  color: #d4d3d1;
+}
+
+.tokio{
 
 }
+
+
+/* ===== Skills ===== */
 
 h1{
     margin-bottom: 5%;
@@ -131,6 +160,7 @@ h1{
   display: grid;
   grid-template-columns: 33.33% 33.33% 33.33%;
   justify-items: center;
+  row-gap: 20%;
 }
 
 .skill {
@@ -139,9 +169,19 @@ h1{
   flex-direction: column;
 }
 
+.skill #java{
+  margin-left: -25%;
+  width: 150%;
+}
+
+.skill #git-logo{
+  margin-bottom: 12%;
+}
+
 h4 {
   text-align: center;
   color: #d4d3d1;
+  font-size: 3vmin;
 }
 
 /* Mobile responsive */
