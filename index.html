@@ -18,7 +18,7 @@
     <img src="/Images/Chunky.svg" alt="Logo" class="chunky">
     <ul class="nav-menu">
       <li><a href="#"></a>About me</li>
-      <li><a href="#"></a>Skills</li>
+      <li><a href="#"></a>My Skills</li>
       <li><a href="#"></a>Projects</li>
       <li class="buton"><a href="#"></a>Contact</li>
     </ul>
@@ -36,13 +36,11 @@
     </div>
   </header>
 
-  <!-- ===== About ===== -->
+  <!-- ===== About me ===== -->
   <Section>
-    <div class="title">
-      <h1>About me</h1>
-    </div>
     <div class="about-columns">
       <div class="about-content">
+        <h1>About me</h1>
         <p>
           I have a law degree from the "Universidad Autónoma de Querétaro", and i am currently studying software
           development
@@ -50,20 +48,39 @@
         </p>
         <div class="line"></div>
         <p>
-          I live in the city of Queretaro. My main hobby is video games. I am a calm person and I consider that I have
-          good soft skills. I'm pragmatic, a self-taught person and i'm always willing to help. I focus on solutions and results, so is very
+          I live in the city of Queretaro. My main hobby is video games. I am a calm person and i consider that i have
+          good soft skills. I'm pragmatic, a self-taught person and i'm always willing to help. I focus on solutions and
+          results, so is very
           easy to work with me.
+        </p>
       </div>
-      <div class="tokio-photo">
-        <img src="/Images/Akibahara.webp" alt="Mario en Tokio" class="tokio">
-      </div>
+      <img src="/Images/Akibahara.webp" alt="Mario in Tokio" class="tokio">
     </div>
   </Section>
+
+  <!-- ===== Working Tools ===== -->
+  <section>
+    <div class="tools-columns">
+      <img src="/Images/tools.webp" alt="Working Tools image" class="pc">
+      <div class="tools-info">
+        <h1>My working tools</h1>
+        <p>
+          This is my workspace, which has all the necessary features to work with any of the most used software
+          nowadays.
+        </p>
+        <div class="line"></div>
+        <p>
+          I am passionate about everything related to software and hardware, so i built my own computer using the
+          necessary components to meet my personal and work needs
+        </p>
+      </div>
+    </div>
+  </section>
 
   <!-- ===== Skills ===== -->
   <section>
     <div class="title">
-      <h1>Skills</h1>
+      <h1 class="my-skills">My Skills</h1>
     </div>
     <div class="rows">
       <div class="skill">
@@ -71,32 +88,42 @@
         <h4>HTML</h4>
       </div>
       <div class="skill">
-        <img src="/Images/css.png" alt="HTML logo" class="logo">
+        <img src="/Images/css.png" alt="CSS logo" class="logo">
         <h4>CSS</h4>
       </div>
       <div class="skill">
-        <img src="/Images/javascript.png" alt="HTML logo" class="logo">
+        <img src="/Images/javascript.png" alt="JavaScript logo" class="logo">
         <h4>JavaScript</h4>
       </div>
       <div class="skill">
-        <img src="/Images/c++ sin fondo.png" alt="HTML logo" class="logo">
+        <img src="/Images/c++ sin fondo.png" alt="C++ logo" class="logo">
         <h4>C++</h4>
       </div>
       <div class="skill">
-        <img src="/Images/java.png" alt="HTML logo" class="logo" id="java">
+        <img src="/Images/java.png" alt="Java logo" class="logo" id="java">
         <h4>Java</h4>
       </div>
       <div class="skill">
-        <img src="/Images/GitHub.png" alt="HTML logo" class="logo" id="git-logo">
+        <img src="/Images/GitHub.png" alt="GitHub logo" class="logo" id="git-logo">
         <h4>GitHub</h4>
       </div>
     </div>
   </section>
 
-  <!-- ===== Working Tools ===== -->
+  <!-- ===== Contact ===== -->
   <section>
-    <div class="title">
-      <h1>Contact</h1>
+    <div class="contact">
+      <div class="title">
+        <h1>Contact</h1>
+      </div>
+      <form>
+        <h3>Send me a message!</h3>
+        <input type="text" id="name" placeholder="Your name" required>
+        <input type="email" id="email" placeholder="Your email" required>
+        <input type="text" id="phone" placeholder="Your phone (optional)">
+        <textarea id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+        <button type="submit" id="submit">Send message</button>
+      </form>
     </div>
   </section>
 
